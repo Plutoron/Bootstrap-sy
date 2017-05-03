@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+		<title>闲暇时的小窝</title>
+
+		<link rel="stylesheet" href="css/base.css" /> 
+	   	<!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<!-- 可选的 Bootstrap 主题文件（一般不用引入） -->
+		<link rel="stylesheet" href="css/bootstrap-theme.min.css">
+	   	<link rel="stylesheet" href="css/basic.css" />
+	   	<link rel="stylesheet" href="css/loading.css" />  
+	   	<link rel="stylesheet" href="css/calendar.css" /> 
+
+	</head>
+
+	<body>
+		<div id="mask">
+			<div class="loader"></div>
+		</div>
+		
+		<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#my-navbar-collapse">
+		            <span class="sr-only">切换导航</span>
+		            <span class="icon-bar"></span>
+		            <span class="icon-bar"></span>
+		            <span class="icon-bar"></span>
+		        </button>
+					<a class="navbar-brand" id="nav-header" href="#main">sy</a>
+				</div>
+				<div class="collapse navbar-collapse" id="my-navbar-collapse">
+					<ul class="nav navbar-nav navbar-right">
+						<li>
+							<a href="#main">Main</a>
+						</li>
+						<li>
+							<a href="#info">Info</a>
+						</li>
+						<li>
+							<a href="#link">Link</a>
+						</li>
+						<li>
+							<a href="#other">Other</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		
+
+		<div class="content">
+			<!-- 第一页 -->
+			<div id="main">
+				<div class="container">
+					<h1>bootstrap-Tab</h1>
+				</div>
+			</div>
+			<!-- 第二页 -->
+			<div id="info">
+				<div class="container">
+					<div class="row">
+						<h1>简历<small>profile</small></h1>	
+					</div>
+					<div class="metro-ui">
+						<div class="row">
+							<div class="col-sm-6 col-md-4 col-lg-3 " data-toggle="popover" data-trigger="hover" data-container="body" data-placement="bottom" data-content="苏云龙">
+
+								<div class="inner" >
+								  	<span class="glyphicon glyphicon-user icon-set"></span>
+									<h5>姓名</h5>
+								</div>
+							</div>
+
+							<div class="col-sm-6 col-md-4 col-lg-3" data-toggle="popover" data-trigger="hover" data-container="body" data-placement="bottom" data-content="河南大学">
+								<div class="inner" >
+									<span class="glyphicon glyphicon-education icon-set"></span>
+									<h5>教育</h5>
+								</div>
+							</div>
+
+							<div class="col-sm-6 col-md-4 col-lg-3">
+								<div class="inner" >
+									<span class="glyphicon glyphicon-hand-down icon-set"></span>
+									<h5>此处应有照片</h5>
+								</div>	
+							</div>
+
+							<div class="col-sm-6 col-md-4 col-lg-3">
+								<div class="inner" >
+									<span class="glyphicon glyphicon-hand-right icon-set"></span>
+									<h5>教育</h5>
+								</div>	
+							</div>
+						</div>
+
+
+
+						<div class="row">
+							<div class="col-sm-6 col-md-6 col-lg-6">
+								<h1>等分</h1>
+							</div>
+							<div class="col-sm-6 col-md-6 col-lg-6">
+								<h1>等分</h1>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- link -->
+			<div id="link">
+				<div class="container">
+					<div class="row" id="most-use">
+					<div class="row title-l">
+						<h1>出镜率最高的<small>for sy</small></h1>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-sm-6 col-md-4 col-lg-3">
+						<div class="mod">
+							<a href="http://www.baidu.com/" target="_blank" title="百度">
+								<div class="logo logo-baidu">
+									<img src="img/baidu.png" class="center-block">
+								</div>
+								<div class="content">
+									<h3>百度</h3>
+									<h5>搜索引擎，现代知识源泉</h5>
+									<p>
+										每天至少要100次<br>
+										QAQ！！！
+									</p>
+								</div>
+							</a>
+						</div>
+					</div>
+
+					<div class="col-sm-6 col-md-4 col-lg-3">
+						<div class="mod">
+							<a href="http://www.baidu.com/" target="_blank" title="百度云">
+								<div class="logo logo-baiduyun">
+									<img src="img/baiduyun.png" class="center-block">
+								</div>
+								<div class="content">
+									<h3>百度云</h3>
+									<h5>花式资源，你懂得</h5>
+									<p>
+										包含知识<br>
+										～(￣▽￣～)(～￣▽￣)～！！！
+									</p>
+								</div>
+							</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="row" id="study">
+					<div class="row title-l">
+						<h1>学习喽<small>for sy</small></h1>
+					</div>
+				</div>
+				
+				<div class="row">
+					<div class="col-sm-6 col-md-4 col-lg-3">
+						<div class="mod">
+							<a href="http://w3schools.bootcss.com/php/default.html" target="_blank" title="w3schools">
+								<div class="logo logo-w3s">
+									<img src="img/w3schools.png" class="center-block">
+								</div>
+								<div class="content">
+									<h3>w3schools</h3>
+									<h5>原版国内镜像</h5>
+									<p>
+										不止能学技术<br>
+										还能锻炼英语，一举两得。嘿嘿
+									</p>
+								</div>
+							</a>
+						</div>
+					</div>
+
+					<div class="col-sm-6 col-md-4 col-lg-3">
+						<div class="mod">
+							<a href="http://jquery.cuishifeng.cn/" target="_blank" title="jQuery">
+								<div class="logo logo-jq">
+									<img src="img/jqueryapi.png" class="center-block">
+								</div>
+								<div class="content">
+									<h3>jQuery API </h3>
+									<h5>中文手册</h5>
+									<p>
+										大神的成果<br>
+										好东西，要分享！
+									</p>
+								</div>
+							</a>	
+						</div>
+					</div>
+
+					<div class="col-sm-6 col-md-4 col-lg-3">
+						<div class="mod">
+							<a href="http://jquery.cuishifeng.cn/" target="_blank" title="jQuery">
+								<div class="logo logo-jq">
+									<img src="img/jqueryapi.png" class="center-block">
+								</div>
+								<div class="content">
+									<h3>jQuery API </h3>
+									<h5>中文手册</h5>
+									<p>
+										大神的成果<br>
+										好东西，要分享！
+									</p>
+								</div>
+							</a>	
+						</div>
+					</div>
+
+					<div class="col-sm-6 col-md-4 col-lg-3">
+						<div class="mod">
+							<a href="http://www.bootcss.com/" target="_blank" title="bootstrap">
+								<div class="logo logo-bootstrap">
+									<img src="img/bootstrap.png" class="center-block">
+								</div>
+								<div class="content">
+									<h3>bootstrap中文网</h3>
+									<h5>前端框架</h5>
+									<p>
+										很受欢迎？<br>
+										用着还行
+									</p>
+								</div>
+							</a>		
+						</div>
+					</div>
+
+					<div class="col-sm-6 col-md-4 col-lg-3">
+						<div class="mod">
+							<a href="http://www.bootcss.com/p/websafecolors/" target="_blank" title="safecolor">
+								<div class="logo logo-websafecolors">
+									<img src="img/websafecolors.png" class="center-block">
+								</div>
+								<div class="content">
+									<h3>web安全色</h3>
+									<h5>一堆颜色</h5>
+									<p>
+										眼花缭乱<br>
+										色盲必备...
+									</p>
+								</div>
+							</a>		
+						</div>
+					</div>
+
+					<div class="col-sm-6 col-md-4 col-lg-3">
+						<div class="mod">
+							<a href="http://huaban.com/" target="_blank" title="花瓣网">
+								<div class="logo logo-huaban">
+									<img src="img/huaban.png">
+								</div>
+								<div class="content">
+									<h3>花瓣网</h3>
+									<h5>花式练眼</h5>
+									<p>
+										又一个眼花缭乱<br>
+										提升审美...
+									</p>
+								</div>
+							</a>		
+						</div>
+					</div>
+				</div>
+				</div>
+			</div>		
+			<!-- other -->
+			<div id="other">
+				<div class="container">
+					<h1>4</h1>
+				</div>
+			</div>
+
+		</div>
+
+
+		<script src="js/jquery-3.1.1.min.js"></script>
+		<!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/basic2.js"></script>
+	   	<script src="js/calendar.js"></script>
+
+ 	</body>
+</html>
