@@ -16,7 +16,7 @@ src
 │   ├── base.css            # base css 清除默认样式
 │   ├── basic.css      # 主要样式
 │   └── loading.css    # loading图片 css
-├── js            # 过滤器
+├── js         
 │   ├── basic.js       # index 用到的js
 │   ├── basic2.css     # index2 及 index2-plus 用到的js
 │   ├── bootstrap.min.js      # bootstrap js
@@ -24,7 +24,7 @@ src
 │   └── jquery-3.1.1.min.js    # jq
 
 ├── img             # 图片资源
-│   └── XXX       #  默认路由  
+│   └── XXX      
 ├── fonts
 │   └── XXX   	   # 字体资源
 ├── index.html        #  bootstrap Tab风格
